@@ -1,0 +1,21 @@
+nelmio_api_doc:
+  documentation:
+    info:
+      title: Eperf_v2
+      version: 3.0.0
+    components:
+      securitySchemes:
+        OAuth2Password:
+          type: oauth2
+          flows:
+            password:
+              tokenUrl: /token
+              refreshUrl: /token
+              scopes:
+                read: "Accès en lecture"
+                write: "Accès en écriture"
+    security:
+      - OAuth2Password: [ ]
+  areas: # to filter documented areas
+    path_patterns:
+      - ^/api/(?!/doc$) # Accepts routes under /api except /api/doc
