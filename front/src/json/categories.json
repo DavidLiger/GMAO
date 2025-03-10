@@ -1,0 +1,124 @@
+[
+  {
+    "label": "menuyourHeritage",
+    "icon": "FaCity",
+    "link": "/bien",
+    "droit": null
+  },
+  {
+    "label": "menuheritageManagement",
+    "icon": "FaProjectDiagram",
+    "link": "#",
+    "droit": null,
+    "children": [
+      {
+        "label": "menusiteManagement",
+        "icon": "FaBuilding",
+        "link": "#",
+        "droit": null,
+        "children": [
+          {
+            "label": "menuaddSingleSite",
+            "icon": "FaPlusCircle",
+            "link": "/patrimoine/site/ajout",
+            "droit": null
+          },
+          {
+            "label": "menubulkManagement",
+            "icon": "FaTasks",
+            "link": "/patrimoine/site/ajout-multiple",
+            "droit": null
+          },
+          {
+            "label": "menucharacteristicManagement",
+            "icon": "FaClipboardList",
+            "link": "/patrimoine/site/caracteristique",
+            "droit": null
+          }
+        ]
+      },
+      {
+        "label": "menumeasurementPointsManagement",
+        "icon": "FaRulerCombined",
+        "link": "/patrimoine/point-mesure",
+        "droit": null
+      }
+    ]
+  },
+  {
+    "label": "menusettings",
+    "icon": "FaCog",
+    "link": "#",
+    "droit": null,
+    "children": [
+      {
+        "label": "menucharacteristics",
+        "icon": "FaListUl",
+        "link": "/parametrage/caracteristique",
+        "droit": null
+      },
+      {
+        "label": "menucharacteristicsAssociationModel",
+        "icon": "FaCogs",
+        "link": "#",
+        "droit": null,
+        "children": [
+          {
+            "label": "menusiteModel",
+            "icon": "FaProjectDiagram",
+            "link": "/parametrage/association-caracteristique-modele/site",
+            "droit": null
+          },
+          {
+            "label": "menuworkModel",
+            "icon": "FaDraftingCompass",
+            "link": "/parametrage/association-caracteristique-modele/ouvrage",
+            "droit": null
+          },
+          {
+            "label": "menuequipmentModel",
+            "icon": "FaToolbox",
+            "link": "/parametrage/association-caracteristique-modele/equipement",
+            "droit": null
+          },
+          {
+            "label": "menucomponentModel",
+            "icon": "FaCubes",
+            "link": "/parametrage/association-caracteristique-modele/composant",
+            "droit": null
+          }
+        ]
+      },
+      {
+        "label": "menusiteModelsDefinition",
+        "icon": "FaSitemap",
+        "link": "/parametrage/definition-modele-site",
+        "droit": null
+      },
+      {
+        "label": "menumeasurementPointsSiteModelAssociation",
+        "icon": "FaMapMarkerAlt",
+        "link": "/parametrage/point-mesure",
+        "droit": null
+      },
+      {
+        "label": "menulist",
+        "icon": "FaListUl",
+        "link": "/parametrage/gestion-listes",
+        "droit": null
+      },
+      {
+        "label": "menuusers",
+        "icon": "FaUserCog",
+        "link": "/parametrage/utilisateur",
+        "droit": null
+      },
+      {
+        "label": "menuteams",
+        "icon": "FaUsers",
+        "link": "/parametrage/equipe",
+        "droit": null
+      }
+    ]
+  }
+]

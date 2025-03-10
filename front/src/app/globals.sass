@@ -1,0 +1,39 @@
+@tailwind base
+@tailwind components
+@tailwind utilities
+
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Press+Start+2P&family=Rock+Salt&family=Seymour+One&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap')
+
+body
+  @apply bg-lightBackground text-lightText dark:bg-darkBackground dark:text-darkText
+  font-family: "Nunito", sans-serif
+  font-optical-sizing: auto
+  font-style: normal
+
+.truncate
+  overflow: hidden
+  white-space: nowrap
+  text-overflow: ellipsis
+
+/* Styles de la scrollbar */
+::-webkit-scrollbar
+  width: 12px /* Largeur de la scrollbar */
+
+::-webkit-scrollbar-track
+  background: #ffffff /* Couleur de l'arrière-plan de la scrollbar */
+
+::-webkit-scrollbar-thumb
+  background: #888 /* Couleur de la barre de défilement */
+  border-radius: 10px /* Coins arrondis */
+
+::-webkit-scrollbar-thumb:hover
+  background: #555 /* Couleur de la barre de défilement au survol */
+
+/* Cacher les flèches de défilement */
+::-webkit-scrollbar-button
+  display: none /* Cacher les flèches de défilement */
+
+/* Pour Firefox */
+* 
+  scrollbar-width: thin /* Taille de la scrollbar */
+  scrollbar-color: #d9d9d9 #fff

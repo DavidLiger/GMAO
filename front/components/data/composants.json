@@ -1,0 +1,17 @@
+[
+    {
+      "id": 1111,
+      "name": "Composant 1",
+      "type": "composant"
+    },
+    {
+      "id": 1112,
+      "name": "Composant 2",
+      "type": "composant"
+    },
+    {
+      "id": 1121,
+      "name": "Composant 3",
+      "type": "composant"
+    }
+  ]

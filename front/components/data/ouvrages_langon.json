@@ -1,0 +1,134 @@
+[
+  {
+    "id": 212,
+    "name": "Prétraitement",
+    "ordre": 1,
+    "type": "ouvrage"
+  },
+  {
+    "id": 213,
+    "name": "Bassin d'anaérobie",
+    "ordre": 2,
+    "type": "ouvrage"
+  },
+  {
+    "id": 189,
+    "name": "Bassin Biologique",
+    "ordre": 3,
+    "type": "ouvrage"
+  },
+  {
+    "id": 191,
+    "name": "Dégazeur",
+    "ordre": 4,
+    "type": "ouvrage"
+  },
+  {
+    "id": 214,
+    "name": "Poste à Flottants",
+    "ordre": 5,
+    "type": "ouvrage"
+  },
+  {
+    "id": 192,
+    "name": "Clarification",
+    "ordre": 6,
+    "type": "ouvrage"
+  },
+  {
+    "id": 195,
+    "name": "Puits a Boue",
+    "ordre": 7,
+    "type": "ouvrage"
+  },
+  {
+    "id": 193,
+    "name": "Canal débitmètrique sortie",
+    "ordre": 8,
+    "type": "ouvrage"
+  },
+  {
+    "id": 205,
+    "name": "Poste Toutes Eaux",
+    "ordre": 9,
+    "type": "ouvrage"
+  },
+  {
+    "id": 203,
+    "name": "Déphosphatation",
+    "ordre": 10,
+    "type": "ouvrage"
+  },
+  {
+    "id": 215,
+    "name": "Local traitement des boues.",
+    "ordre": 11,
+    "type": "ouvrage"
+  },
+  {
+    "id": 217,
+    "name": "Lit de Séchage Plantés de Macrophytes",
+    "ordre": 12,
+    "type": "ouvrage"
+  },
+  {
+    "id": 211,
+    "name": "Réseau eau insdustrielle",
+    "ordre": 13,
+    "type": "ouvrage"
+  },
+  {
+    "id": 198,
+    "name": "Matières de curage",
+    "ordre": 14,
+    "type": "ouvrage"
+  },
+  {
+    "id": 194,
+    "name": "Désodorisation",
+    "ordre": 15,
+    "type": "ouvrage"
+  },
+  {
+    "id": 210,
+    "name": "Local électrique BT",
+    "ordre": 17,
+    "type": "ouvrage"
+  },
+  {
+    "id": 208,
+    "name": "Local électrique HT",
+    "ordre": 18,
+    "type": "ouvrage"
+  },
+  {
+    "id": 229,
+    "name": "Local électrique panneaux photovoltaïques.",
+    "ordre": 19,
+    "type": "ouvrage"
+  },
+  {
+    "id": 230,
+    "name": "Local nettoyage haute pression",
+    "ordre": 20,
+    "type": "ouvrage"
+  },
+  {
+    "id": 190,
+    "name": "Servitudes / Compteurs AEP /ELec / Divers",
+    "ordre": 21,
+    "type": "ouvrage"
+  },
+  {
+    "id": 1086,
+    "name": "Local d'Exploitation - gestion des alarmes",
+    "ordre": 22,
+    "type": "ouvrage"
+  },
+  {
+    "id": 424,
+    "name": "analyse de Laboratoire",
+    "ordre": 23,
+    "type": "ouvrage"
+  }
+]

@@ -1,0 +1,37 @@
+[
+  {
+    "role": "ROLE_ADMIN",
+    "shortcuts": [
+      {
+        "name": "Dashboard",
+        "icon": "FaTachometerAlt",
+        "link": "/dashboard"
+      },
+      {
+        "name": "Utilisateurs",
+        "icon": "FaUsers",
+        "link": "/users"
+      },
+      {
+        "name": "Paramètres",
+        "icon": "FaCog",
+        "link": "/settings"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "shortcuts": [
+      {
+        "name": "Profil",
+        "icon": "FaUser",
+        "link": "/profile"
+      },
+      {
+        "name": "Support",
+        "icon": "FaLifeRing",
+        "link": "/support"
+      }
+    ]
+  }
+]

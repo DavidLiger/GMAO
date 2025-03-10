@@ -1,0 +1,58 @@
+[
+  {
+    "label": "Home",
+    "link": "/"
+  },
+  {
+    "label": "Sites",
+    "link": "/patrimoine/site"
+  },
+  {
+    "label": "Ouvragres",
+    "link": "/patrimoine/ouvrage"
+  },
+  {
+    "label": "Equipements",
+    "link": "/patrimoine/equipement"
+  },
+  {
+    "label": "composant",
+    "link": "/patrimoine/composant"
+  },
+  {
+    "label": "Site",
+    "link": "/gmao/site"
+  },
+  {
+    "label": "Mes actions",
+    "link": "/gmao/action"
+  },
+  {
+    "label": "Cartographie",
+    "link": "/gmao/cartographie"
+  },
+  {
+    "label": "Paramètrages",
+    "link": "/gmao/parametrage"
+  },
+  {
+    "label": "GMAO",
+    "link": "/gmao/parametrage/gmao"
+  },
+  {
+    "label": "Import réseau",
+    "link": "/gmao/parametrage/reseau"
+  },
+  {
+    "label": "Utilisateurs",
+    "link": "/parametrage/user"
+  },
+  {
+    "label": "Profils utilisateurs",
+    "link": "/parametrage/profil"
+  },
+  {
+    "label": "Permission",
+    "link": "/parametrage/permission"
+  }
+]

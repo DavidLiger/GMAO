@@ -1,0 +1,6 @@
+#!/bin/bash
+git pull
+PID2KILL=`sudo netstat -tulnp | grep :3000 | awk '{print $7}' | cut -d'/' -f1`
+sudo kill $PID2KILL
+yarn build
+yarn start &
